@@ -1,0 +1,97 @@
+/* Estilos para el canvas */
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+/* Estilos para el texto de la pantalla de victoria */
+canvas:focus {
+  outline: none;
+}
+
+/* Estilos para la red */
+.net {
+  width: 2px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Estilos para la raqueta del jugador 1 */
+.player1 {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  top: 190px;
+  left: 20px;
+  background-color: white;
+}
+
+/* Estilos para la raqueta del jugador 2 (computadora) */
+.player2 {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  top: 190px;
+  right: 20px;
+  background-color: white;
+}
+
+/* Estilos para la pelota */
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Estilos para el texto de las puntuaciones */
+.score {
+  position: absolute;
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+  top: 20px;
+}
+
+/* Estilos para la pantalla de victoria */
+.win-screen {
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  width: 300px;
+  height: 150px;
+  top: 150px;
+  left: 170px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Estilos para el texto de la pantalla de victoria */
+.win-text {
+  font-size: 30px;
+  font-family: Arial;
+  color: black;
+}
+
+/* Estilos para el texto de continuar en la pantalla de victoria */
+.win-continue {
+  font-size: 20px;
+  font-family: Arial;
+  color: black;
+}
+
